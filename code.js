@@ -5,5 +5,5 @@ function helloWorld() {
 
 // sayHello function
 function sayHello() {
-    return "say, Hello";
+    return "";
 }

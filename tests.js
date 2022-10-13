@@ -14,9 +14,13 @@ describe('helloWorld', function() {
     });
 });
 
-//Exercise 1
+//Exercise 1,2
 describe('sayHello', function() {
     it('should be a defined function', function() {
         expect(typeof sayHello).toBe('function');
     });
+    it('should be a defined function', function() {
+        expect(typeof sayHello()).toBe('string');
+    });
     })
+
