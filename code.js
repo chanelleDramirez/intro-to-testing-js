@@ -43,3 +43,33 @@ function isFive(input) {
         return "true!";
     }
 }
+
+// isEven function
+function isEven() {
+    if (isEven === "true") {
+        return "true!";
+    } else if (isEven === "false") {
+        return "false!";
+    }
+    if (isEven === "2") {
+        return "true!";
+    } else if (isEven === "-4") {
+        return "true!";
+    }
+    if (isEven === "3") {
+        return "false!";
+    } else if (isEven === "banana") {
+        return "false!";
+    }
+    if (isEven === "8") {
+        return "true!";
+    } else if (isEven === "Infinity") {
+        return "false!";
+    }
+    if (isEven === "true or false") {
+        return "false!";
+    }
+    if (isEven === "") {
+        return "false!";
+    }
+}

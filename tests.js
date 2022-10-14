@@ -54,3 +54,10 @@ describe('isFive', function() {
         expect(typeof 'isFive').toBe('string');
     });
 });
+
+// Exercise 11
+describe('isEven', function() {
+    it('should be a defined function', function () {
+        expect(typeof 'isEven').toBe('string');
+    });
+});
