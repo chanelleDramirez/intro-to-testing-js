@@ -74,7 +74,7 @@ function isEven() {
     }
 }
 
-// helloWorld function
+// isVowel function
 function isVowel() {
     if (isVowel === "true or false") {
         return "true or false!";
@@ -94,4 +94,24 @@ function isVowel() {
     if (isVowel === "") {
         return "false!";
     }
+}
+
+// add function
+function add() {
+    return "add!";
+    if (add === 2,3) {
+        return 5;
+    }if (add === -3,-9) {
+        return -12;
+    }if (add === "5",6) {
+        return 11;
+    }if (add === "-4","10") {
+        return 6;
+    }if (add === "banana","split") {
+        return NaN;
+    }if (add === 2,"apples)
+        return NaN;
+    } if else (add === "") {
+    return NaN!;
+}
 }

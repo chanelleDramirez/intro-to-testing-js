@@ -68,3 +68,4 @@ describe('isVowel', function() {
         expect(typeof 'isVowel').toBe('string');
     });
 });
+
