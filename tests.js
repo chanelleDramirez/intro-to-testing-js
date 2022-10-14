@@ -47,3 +47,10 @@ describe('sayHello', function() {
     });
 
 });
+
+// Exercise 10
+describe('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof 'isFive').toBe('string');
+    });
+});

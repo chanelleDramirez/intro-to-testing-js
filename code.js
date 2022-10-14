@@ -31,3 +31,15 @@ function sayHello(input) {
 //function sayHello(input) {
    //return "Hello" + input + "!"
 //}
+
+ //isFive function
+function isFive(input) {
+    if (input === "true") {
+        return "true!";
+    } else if (input === "false") {
+        return "false!";
+    }
+    else if (input === "5") {
+        return "true!";
+    }
+}
