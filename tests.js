@@ -61,3 +61,10 @@ describe('isEven', function() {
         expect(typeof 'isEven').toBe('string');
     });
 });
+
+// Exercise 12
+describe('isVowel', function() {
+    it('should be a defined function', function () {
+        expect(typeof 'isVowel').toBe('string');
+    });
+});

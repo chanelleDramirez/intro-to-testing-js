@@ -73,3 +73,25 @@ function isEven() {
         return "false!";
     }
 }
+
+// helloWorld function
+function isVowel() {
+    if (isVowel === "true or false") {
+        return "true or false!";
+    } else if (isVowel === "a") {
+        return "true!";
+    } else if (isVowel === "A") {
+        return "true!";
+    } else if (isVowel === "y") {
+        return "false!";
+    } else if (isVowel === "4") {
+        return "false!";
+    } else if (isVowel === "true or false") {
+        return "false!";
+    } else if (isVowel === "banana") {
+        return "false!";
+    }
+    if (isVowel === "") {
+        return "false!";
+    }
+}
